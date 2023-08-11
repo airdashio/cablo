@@ -1,1 +1,126 @@
+{
+        "default": {
+            "headers": {},
+            "url": "https://core.cablo.io/dashboard/magics",
+            "payload": {}
+        },
+        "items": [
+            {
+                "id": "Cells",
+                "title": "Cells Management",
+                "translate": "Cells Management",
+                "type": "collapse",
+                "icon": "apps",
+                "children": [
+                    {
+                        "id": "Your Cells",
+                        "title": "Your Cells",
+                        "type": "item",
+                        "data": {
+                            "headers": {},
+                            "url": "https://core.cablo.io/dashboard/cells",
+                            "path": "/cells",
+                            "payload": {}
+                        }
+                    }
+                ],
+                "exact": true
+            },
+            {
+                "id": "Magics",
+                "title": "Magics Management",
+                "translate": "Magics Management",
+                "type": "collapse",
+                "icon": "apps",
+                "children": [
+                    {
+                        "id": "Your Magics",
+                        "title": "Your Magics",
+                        "type": "item",
+                        "data": {
+                            "headers": {},
+                            "url": "https://core.cablo.io/dashboard/magics",
+                            "path": "/magics",
+                            "payload": {}
+                        }
+                    },
 
+                    {
+                        "id": "Your Requests",
+                        "title": "Your Requests",
+                        "type": "item",
+                        "data": {
+                            "headers": {},
+                            "url": "https://core.cablo.io/dashboard/requests",
+                            "path": "/requests",
+                            "payload": {}
+                        }
+                    }
+                ],
+                "exact": true
+            },
+            {
+                "id": "Schedules",
+                "title": "Schedules Management",
+                "translate": "Schedules Management",
+                "type": "collapse",
+                "icon": "apps",
+                "children": [
+                    {
+                        "id": "Your Schedules",
+                        "title": "Your Schedules",
+                        "type": "item",
+                        "data": {
+                            "headers": {},
+                            "url": "https://core.cablo.io/dashboard/schedules",
+                            "path": "/schedules",
+                            "payload": {}
+                        }
+                    }
+                ],
+                "exact": true
+            },
+            {
+                "id": "Queues",
+                "title": "Queues Management",
+                "translate": "Queues Management",
+                "type": "collapse",
+                "icon": "apps",
+                "children": [
+                    {
+                        "id": "Your Queues",
+                        "title": "Your Queues",
+                        "type": "item",
+                        "data": {
+                            "headers": {},
+                            "url": "https://core.cablo.io/dashboard/queues",
+                            "path": "/queues",
+                            "payload": {}
+                        }
+                    }
+                ],
+                "exact": true
+            },
+            {
+                "id": "Services",
+                "title": "Services Management",
+                "translate": "Services Management",
+                "type": "collapse",
+                "icon": "apps",
+                "children": [
+                    {
+                        "id": "Your Services",
+                        "title": "Your Services",
+                        "type": "item",
+                        "data": {
+                            "headers": {},
+                            "url": "https://core.cablo.io/dashboard/services",
+                            "path": "/services",
+                            "payload": {}
+                        }
+                    }
+                ],
+                "exact": true
+            }
+        ]
+    }
