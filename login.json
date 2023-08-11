@@ -1,1 +1,50 @@
-{}
+{
+  "user": {
+    "uuid": "XgbuVEXBU5gtSKdbQRP1Zbbby1i1",
+    "from": "custom-db",
+    "password": "admin",
+    "role": "admin",
+    "data": {
+      "displayName": "Abbott Keitch",
+      "photoURL": "assets/images/avatars/Abbott.jpg",
+      "email": "admin@fusetheme.com",
+      "settings": {
+        "layout": {
+          "style": "layout1",
+          "config": {
+            "scroll": "content",
+            "navbar": {
+              "display": true,
+              "folded": true,
+              "position": "left"
+            },
+            "toolbar": {
+              "display": true,
+              "style": "fixed",
+              "position": "below"
+            },
+            "footer": {
+              "display": true,
+              "style": "fixed",
+              "position": "below"
+            },
+            "mode": "fullwidth"
+          }
+        },
+        "customScrollbars": true,
+        "theme": {
+          "main": "default",
+          "navbar": "greyDark",
+          "toolbar": "mainThemLight",
+          "footer": "mainThemDark"
+        }
+      },
+      "shortcuts": [
+        "calendar",
+        "mail",
+        "contacts"
+      ]
+    }
+  },
+  "access_token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImEzMmZkZDRiMTQ2Njc3NzE5YWIyMzcyODYxYmRlZDg5In0.eyJpc3MiOiJkODRhODFjYjk2NjQwZWI3Y2I1MjA3NWZjZWM4Zjk3YjQyNzlhY2E4IiwiYXVkIjoiYXBpIDEiLCJzdWIiOiI5Mzc3NzE3YmVmNWE0OGMyODliYWEyZDI0MjM2N2NhNSIsImV4cCI6MzAwMDE2ODI5NTY4NzUsImlhdCI6MTY4Mjk1Njg3NSwidXNlcm5hbWUiOiJhbWluYWNjIn0.mzawiJRrFaTTKY4l9qquf-TMeY17KGMIqKRpGOrFrVhR35LnAxbdQUqASIGVDw_PwCgmNk3LzyNhn58uORPdWg"
+}
